@@ -54,5 +54,7 @@
 		</div>
 	</div>
 </div>
-
+<div class="col-lg-3">
+	<?php get_search_form();?>
+</div>
 <?php get_footer(); ?>

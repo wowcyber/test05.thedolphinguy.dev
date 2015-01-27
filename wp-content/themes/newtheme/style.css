@@ -109,3 +109,8 @@ body {
     padding: 10px;
     margin-bottom: 2px;
 }
+
+.searchform-container {
+    background-color: #CCD5D5;
+    padding: 15px;
+}
