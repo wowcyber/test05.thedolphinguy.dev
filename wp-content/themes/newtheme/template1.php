@@ -10,8 +10,8 @@
 <?php get_header(); ?>
 
 <div class="col-lg-3">
-	<div class="col-lg-12 logopic">
-
+	<div class="col-lg-12 logopic text-center">
+		<img src="<?php echo get_template_directory_uri() ?>/images/logo.png">
 	</div>
 	<div class="col-lg-12 side-menu text-center">
 		<ul class="list-unstyled">
