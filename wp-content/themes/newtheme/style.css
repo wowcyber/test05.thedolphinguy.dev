@@ -364,7 +364,7 @@ html {
 }
 
 body {
-	background: #fff; /* Fallback for when there is no custom background color defined. */
+	background: #2C3F50; /* Fallback for when there is no custom background color defined. */
 }
 
 blockquote:before,
