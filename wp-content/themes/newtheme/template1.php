@@ -9,7 +9,6 @@
 
 <?php get_header(); ?>
 
-
 <div class="col-lg-8 main-content">
 	<div class="main-content-top row-fluid" >
 		<div class="col-lg-9 fluid">
@@ -56,5 +55,25 @@
 </div>
 <div class="col-lg-3">
 	<?php get_search_form();?>
+	<div class="sidecontent text-center">
+		<div class="side-header">Recent Post</div>
+		<ul class="recent-posts list-unstyled">
+			<?php
+			$archive_query = new WP_Query('showposts=5');
+			while ($archive_query->have_posts()) : $archive_query->the_post(); ?>
+				<li><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></li>
+			<?php endwhile; ?>
+		</ul>
+	</div>
+	<div class="sidecontent text-center">
+		<div class="side-header">Recent Comments</div>
+		<ul class="recent-posts list-unstyled">
+			<?php
+			$archive_query = new WP_Query('showposts=5');
+			while ($archive_query->have_posts()) : $archive_query->the_post(); ?>
+				<li><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></li>
+			<?php endwhile; ?>
+		</ul>
+	</div>
 </div>
 <?php get_footer(); ?>

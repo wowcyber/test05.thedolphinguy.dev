@@ -25,6 +25,7 @@ html,body {
 
 body {
     background-color: #2C3F50;
+    margin-top: 10px;
 }
 
 .main-content {
@@ -36,7 +37,6 @@ body {
 }
 
 .main-content-top {
-    margin-top: 12px;
     background-color: #F3DCF9;
     height: 170px;
 }
@@ -113,4 +113,27 @@ body {
 .searchform-container {
     background-color: #CCD5D5;
     padding: 15px;
+}
+
+.sidecontent {
+    margin-top: 10px;
+    background-color: #7E8C8C;
+}
+
+.sidecontent ul li {
+    background-color: #CBD7D7;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+.sidecontent ul li a {
+    color: #010101;
+    font-size: 13px;
+}
+.side-header {
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
 }
