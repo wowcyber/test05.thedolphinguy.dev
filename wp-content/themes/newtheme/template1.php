@@ -9,7 +9,20 @@
 
 <?php get_header(); ?>
 
-<div class="col-lg-8 main-content">
+<div class="col-lg-3">
+	<div class="col-lg-12 logopic">
+
+	</div>
+	<div class="col-lg-12 side-menu text-center">
+		<ul class="list-unstyled">
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">ABOUT THE TEST</a></li>
+			<li><a href="#">LOREM IPSUM</a></li>
+			<li><a href="#">PAGE WITH CONTENTS</a></li>
+		</ul>
+	</div>
+</div>
+<div class="col-lg-6 main-content">
 	<div class="main-content-top row-fluid" >
 		<div class="col-lg-9 fluid">
 			<div class="col-lg-12 top-header fluid ">
