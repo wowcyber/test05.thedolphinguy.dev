@@ -18,4 +18,4 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div id="content" class="container">
+	<div id="content" class="row">
