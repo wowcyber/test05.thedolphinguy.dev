@@ -50,59 +50,64 @@
 </div>
 <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12 main-content">
 	<div class="col-lg-12 seperator-large">
-		<div class="main-content-top">
-			<div class="">
+		<div class="col-lg-12 main-content-top">
+			<div class="row">
 				<div class="col-xs-8">
-					<div class="row main-content-top-header">
-						<ul class="list-unstyled">
-							<li>December 2,2014</li>
-							<li>Loui Byrdziak</li>
-						</ul>
-					</div>
-					<div class="row main-content-top-details">
-						<ul>
-							<li><a href="#">How to customize Flounder</a></li>
-							<li><a href="#">Common Flounder customizations</a></li>
-							<li><a href="#">Plugin Hooks in Flounder</a></li>
-							<li><a href="#">Changelog</a></li>
-						</ul>
+					<div class="row">
+						<div class="col-xs-12 main-content-top-header">
+							<ul class="list-unstyled">
+								<li>December 2,2014</li>
+								<li>Loui Byrdziak</li>
+							</ul>
+						</div>
+						<div class="col-xs-12 main-content-top-details">
+							<ul>
+								<li><a href="#">How to customize Flounder</a></li>
+								<li><a href="#">Common Flounder customizations</a></li>
+								<li><a href="#">Plugin Hooks in Flounder</a></li>
+								<li><a href="#">Changelog</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<div class="col-xs-4 main-content-top-banner">
 				</div>
 			</div>
 		</div>
-		<div class="main-content-bot">
-			<div class="col-xs-8">
-				<div class="row main-content-bot-header">
-					Markup: HTML Tags and Formatting
+		<div class="col-xs-12 main-content-bot">
+			<div class="row">
+				<div class="col-xs-8">
+					<div class="row">
+						<div class="col-xs-12 main-content-bot-header">
+							Markup: HTML Tags and Formatting
+						</div>
+						<div class="col-xs-12 main-content-bot-details">
+							
+							<h2>Headings</h2>
+
+							<h1>Header one</h1>
+							
+							<h2>Header two</h2>
+							
+							<h3>Header three</h3>
+							
+							<h4>Header four</h4>
+							
+							<h5>Header five</h5>
+							
+							<h6>Header six</h6>
+
+							Single line blockqoute:
+
+							<blockquote>"Stay hungry. Stay Foolish"</blockquote>
+
+							Multi line blockqoute with cite reference:
+
+							<blockquote>"People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means sating no to the hundred other good ideas that there are. You have to pock carefully. I'm actually as proud of the things we haven't done as the things I have done. Innocation is sayung no to 1,000 things. <i> Steve jobs - Apple Worldwide Developers' Confenrence, 1997</i>"</blockquote>
+
+						</div>
+					</div>
 				</div>
-				<div class="row main-content-bot-details">
-					
-					<h2>Headings</h2>
-
-					<h1>Header one</h1>
-					
-					<h2>Header two</h2>
-					
-					<h3>Header three</h3>
-					
-					<h4>Header four</h4>
-					
-					<h5>Header five</h5>
-					
-					<h6>Header six</h6>
-
-					Single line blockqoute:
-
-					<blockquote>"Stay hungry. Stay Foolish"</blockquote>
-
-					Multi line blockqoute with cite reference:
-
-					<blockquote>"People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means sating no to the hundred other good ideas that there are. You have to pock carefully. I'm actually as proud of the things we haven't done as the things I have done. Innocation is sayung no to 1,000 things. <i> Steve jobs - Apple Worldwide Developers' Confenrence, 1997</i>"</blockquote>
-
-				</div>
-			</div>
 			<div class="col-xs-4 main-content-bot-banner">
 				<div class="row">
 					<div class="main-content-bot-logo">
@@ -115,6 +120,7 @@
 					</ul>
 				</div>
 			</div>
+		</div>
 		</div>
 	</div>
 </div>
